@@ -1,0 +1,40 @@
+.card-container,
+.btn-container{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: calc(50% - 15px);
+}
+
+.create-metafields .card-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.create-metafields .card-body .create-metafields__input{
+    width: calc(50% - 15px);
+}
+
+.message-log{
+    color: red;
+}
+
+.message-log.red{
+    color: red;
+}
+
+.message-log.green{
+    color: green;
+}
+
+.update-container{
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.update-container .form-control, .btn-container .btn{
+    width: calc(50% - 5px);
+}
